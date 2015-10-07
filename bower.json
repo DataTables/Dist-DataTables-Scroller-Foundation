@@ -1,0 +1,37 @@
+{
+    "name": "datatables.net-scroller-zf",
+    "description": "Scroller for DataTables with styling for [Zurb Foundation](http://foundation.zurb.com/)",
+    "main": [
+        "css/scroller.foundation.css"
+    ],
+    "keywords": [
+        "virtual scrolling",
+        "DataTables",
+        "jQuery",
+        "table",
+        "Foundation"
+    ],
+    "dependencies": {
+        "jquery": ">=1.7",
+        "datatables.net-zf": ">=1.10.9",
+        "datatables.net-scroller": ">=1.3.0"
+    },
+    "moduleType": [
+        "globals",
+        "amd",
+        "node"
+    ],
+    "ignore": [
+        "composer.json",
+        "datatables.json",
+        "package.json"
+    ],
+    "authors": [
+        {
+            "name": "SpryMedia Ltd",
+            "homepage": "https://datatables.net"
+        }
+    ],
+    "homepage": "https://datatables.net",
+    "license": "MIT"
+}
