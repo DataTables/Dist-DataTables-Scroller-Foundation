@@ -19,7 +19,7 @@ npm install datatables.net-scroller-zf
 
 ```
 var $ = require( 'jquery' );
-require( 'datatables.net-scroller-zf' )( $ );
+require( 'datatables.net-scroller-zf' )( window, $ );
 ```
 
 ### bower
