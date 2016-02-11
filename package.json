@@ -1,6 +1,6 @@
 {
     "name": "datatables.net-scroller-zf",
-    "version": "1.4.0",
+    "version": "1.4.1",
     "description": "Scroller for DataTables with styling for [Zurb Foundation](http://foundation.zurb.com/)",
     "files": [
         "css/scroller.foundation.css"
