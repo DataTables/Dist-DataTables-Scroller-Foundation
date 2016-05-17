@@ -5,6 +5,7 @@
     "files": [
         "css/scroller.foundation.css"
     ],
+    "style": "css/scroller.foundation.css",
     "keywords": [
         "virtual scrolling",
         "DataTables",
