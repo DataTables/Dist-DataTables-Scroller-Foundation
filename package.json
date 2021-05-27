@@ -1,34 +1,47 @@
 {
     "name": "datatables.net-scroller-zf",
+    "description": "Scroller for DataTables with styling for [Foundation](https://get.foundation/)",
+    "main": "js/scroller.foundation.js",
+    "style": "css/scroller.foundation.css",
     "version": "2.0.3",
-    "description": "Scroller for DataTables with styling for [Zurb Foundation](http://foundation.zurb.com/)",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
-    "style": "css/scroller.foundation.css",
     "keywords": [
-        "virtual scrolling",
-        "DataTables",
+        "Scroller",
+ "Virtual Scrolling",
+        "Foundation",
+        "Datatables",
         "jQuery",
         "table",
-        "Foundation"
+        "filter",
+        "sort"
     ],
-    "homepage": "https://datatables.net",
-    "bugs": "https://datatables.net/forums",
-    "license": "MIT",
+    "dependencies": {
+        "datatables.net-scroller": ">=2.0.3",
+        "datatables.net-zf": ">=1.10.24",
+        "jquery": ">=1.7"
+    },
+    "moduleType": [
+        "globals",
+        "amd",
+        "node"
+    ],
+    "ignore": [
+        "composer.json",
+        "datatables.json",
+        "package.json"
+    ],
     "author": {
         "name": "SpryMedia Ltd",
         "url": "http://datatables.net"
     },
-    "dependencies": {
-        "jquery": ">=1.7",
-        "datatables.net-zf": "^1.10.15",
-        "datatables.net-scroller": "2.0.3"
-    },
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/DataTables/Dist-DataTables-Scroller-Foundation.git"
-    },
-    "main": "js/scroller.foundation.js"
+    }
 }
