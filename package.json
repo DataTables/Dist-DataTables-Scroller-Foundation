@@ -3,6 +3,7 @@
     "description": "Scroller for DataTables with styling for [Foundation](https://get.foundation/)",
     "main": "js/scroller.foundation.js",
     "style": "css/scroller.foundation.css",
+    "types": "./types/scroller.foundation.d.ts",
     "version": "2.0.3",
     "files": [
         "css/**/*.css",
