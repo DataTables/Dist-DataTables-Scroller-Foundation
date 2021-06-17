@@ -4,14 +4,14 @@
     "main": "js/scroller.foundation.js",
     "style": "css/scroller.foundation.css",
     "types": "./types/scroller.foundation.d.ts",
-    "version": "2.0.3",
+    "version": "2.0.4",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
     "keywords": [
         "Scroller",
- "Virtual Scrolling",
+        "Virtual Scrolling",
         "Foundation",
         "Datatables",
         "jQuery",
@@ -20,9 +20,9 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-scroller": ">=2.0.3",
-        "datatables.net-zf": ">=1.10.24",
-        "jquery": ">=1.7"
+        "jquery": ">=1.7",
+        "datatables.net-zf": "^1.10.15",
+        "datatables.net-scroller": "2.0.4"
     },
     "moduleType": [
         "globals",
