@@ -4,14 +4,14 @@
     "main": "js/scroller.foundation.js",
     "style": "css/scroller.foundation.css",
     "types": "./types/scroller.foundation.d.ts",
-    "version": "2.0.4",
+    "version": "2.0.5",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
     "keywords": [
         "Scroller",
- "Virtual Scrolling",
+        "Virtual Scrolling",
         "Foundation",
         "Datatables",
         "jQuery",
