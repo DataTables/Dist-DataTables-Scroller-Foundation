@@ -4,7 +4,7 @@
     "main": "js/scroller.foundation.js",
     "style": "css/scroller.foundation.css",
     "types": "./types/scroller.foundation.d.ts",
-    "version": "2.0.5",
+    "version": "2.0.7",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -21,8 +21,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-scroller": ">=2.0.5",
-        "datatables.net-zf": ">=1.11.5",
+        "datatables.net-scroller": ">=2.0.7",
+        "datatables.net-zf": ">=1.12.1",
         "jquery": ">=1.7"
     },
     "moduleType": [
