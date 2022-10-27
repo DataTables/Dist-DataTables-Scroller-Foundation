@@ -4,7 +4,7 @@
     "main": "js/scroller.foundation.js",
     "module": "js/scroller.foundation.mjs",
     "style": "css/scroller.foundation.css",
-    "types": "./types/scroller.foundation.d.ts",
+    "types": "./types/types.d.ts",
     "version": "2.0.7",
     "files": [
         "css/**/*.css",
