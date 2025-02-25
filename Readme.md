@@ -27,7 +27,7 @@ import DataTable from 'datatables.net-zf';
 import 'datatables.net-scroller-zf'
 
 new DataTable('#myTable', {
-    // initalisation options
+    // initialisation options
 });
 ```
 
