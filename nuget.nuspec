@@ -10,8 +10,8 @@
         <license type="expression">MIT</license>
         <tags>Scroller  Virtual Scrolling  Foundation  Datatables jQuery table</tags>
         <dependencies>
-            <dependency id="datatables.net-scroller" version="2.0.7"/>
-            <dependency id="datatables.net-zf" version="1.12.1"/>
+            <dependency id="datatables.net-scroller" version="2.4.3"/>
+            <dependency id="datatables.net-zf" version="2.3.2"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>
@@ -22,6 +22,10 @@
         <file src="js/scroller.foundation.js" target="contentFiles\any\any\wwwroot\js"/>
         <file src="js/scroller.foundation.min.js" target="content\Scripts"/>
         <file src="js/scroller.foundation.min.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/scroller.foundation.min.mjs" target="content\Scripts"/>
+        <file src="js/scroller.foundation.min.mjs" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/scroller.foundation.mjs" target="content\Scripts"/>
+        <file src="js/scroller.foundation.mjs" target="contentFiles\any\any\wwwroot\js"/>
         <file src="css/scroller.foundation.css" target="content\Content"/>
         <file src="css/scroller.foundation.css" target="contentFiles\any\any\wwwroot\css"/>
         <file src="css/scroller.foundation.min.css" target="content\Content"/>
