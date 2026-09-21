@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-scroller-zf",
     "description": "Scroller for DataTables with styling for [Foundation](https://get.foundation/)",
-    "main": "js/scroller.foundation.js",
-    "module": "js/scroller.foundation.mjs",
-    "style": "css/scroller.foundation.css",
+    "main": "./js/scroller.foundation.js",
+    "module": "./js/scroller.foundation.mjs",
+    "style": "./css/scroller.foundation.css",
     "types": "./types/scroller.foundation.d.ts",
     "version": "3.0.0",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "Scroller",
@@ -35,5 +34,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/Scroller.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/scroller.foundation.d.ts",
+            "import": "./js/scroller.foundation.mjs",
+            "default": "./js/scroller.foundation.mjs",
+            "require": "./js/scroller.foundation.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/scroller.foundation.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
