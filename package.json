@@ -38,9 +38,10 @@
     "exports": {
         ".": {
             "types": "./types/scroller.foundation.d.ts",
+            "style": "./css/scroller.foundation.css",
             "import": "./js/scroller.foundation.mjs",
-            "default": "./js/scroller.foundation.mjs",
-            "require": "./js/scroller.foundation.js"
+            "require": "./js/scroller.foundation.js",
+            "default": "./js/scroller.foundation.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
